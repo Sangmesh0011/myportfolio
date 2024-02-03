@@ -10,9 +10,11 @@ const ProjectScreen = () => {
     setProjectsData(projects);
   }, []);
 
+
+
   return (
     <div className="project-screen">
-      <Header />
+      <Header color="white" animation="0s"/>
       <div className="container">
         {projectsData.map((project) => (
           <div className="card">
