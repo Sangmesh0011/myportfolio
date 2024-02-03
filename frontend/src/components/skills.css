@@ -1,0 +1,46 @@
+.skills-container {
+    padding: 40px;
+    margin-top: 0px;
+    background-color: #e5fff4;
+  }
+  .skills-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+  }
+  
+  .skill-item {
+    background-color: rgb(255, 107, 16);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 2s ease-in-out infinite;
+  
+    &:hover {
+      background-color: #2980b9;
+      animation: none; /* Disable animation on hover */
+    }
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .skill-item {
+    animation: floatAnimation 2s ease-in-out infinite;
+  }
+  

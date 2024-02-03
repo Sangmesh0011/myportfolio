@@ -1,0 +1,92 @@
+.about {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 255, 242);
+
+}
+a{
+  text-decoration: none;
+}
+.sklbtn{
+  height: 90px;
+  width: 210px;
+  display: flex;
+
+ background-color: rgb(213, 168, 255);
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  transition: transform 1s ease-in-out;
+}
+.sklbtn:hover{
+  background-color: rgba(255, 217, 0, 0.389);
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.about .left{
+  position: relative;
+  padding: 0;
+  height: 300px;
+  width: 300px;
+  margin-left:10px;
+  margin-top:-40px;
+  display: flex;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &:hover{
+    background-color: rgb(0, 216, 216);
+  }
+}
+
+.about .right{
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.about .data {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+h3,h3 {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  font-size: 40px;
+
+}
+.about .social{
+  height: 50px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about .social .sicons{
+    height: 70px;
+    width: 20x;
+}
