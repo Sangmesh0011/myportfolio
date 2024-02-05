@@ -23,7 +23,7 @@ const ProjectDetails = () => {
           </div>
           <div className="links">
             <div className="g">
-              <a href={project.github} target="_blank">
+              <a href={project.github} target="_blank" rel="noopener noreferrer">
                 <h2>Github</h2>
               </a>
             </div>
