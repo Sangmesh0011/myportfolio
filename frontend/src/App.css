@@ -7,6 +7,7 @@
 body{
   scrollbar-color: rgb(41, 41, 41);
   background-color: #f4ffdb;
+  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   width: 14px;
@@ -36,21 +37,21 @@ body::-webkit-scrollbar-thumb {
   opacity: 0; 
 }
 .a {
-  background-color: #cfff6f;
+  background-color: #38ff6a;
   width: 25vw;
   height: 100vh;
   animation: dropdown1 0.25s 0.3s forwards;
   transition: all 400ms ease;
 }
 .b {
-  background-color: #ff6868;
+  background-color: #56e3ff;
   width: 25vw;
   height: 100vh;
   animation: dropdown1 0.25s 0.9s forwards;
   transition: all 400ms ease;
 }
 .c {
-  background-color: #6dffec;
+  background-color: #ff8a23;
   width: 25vw;
   height: 100vh;
   animation: dropdown1 0.25s 1.4s forwards;
@@ -58,7 +59,7 @@ body::-webkit-scrollbar-thumb {
 }
 .d {
   transition: all 400ms ease;
-  background-color: #fba7ff;
+  background-color: #ffffff;
   animation: dropdown1 0.25s 1.9s forwards;
   width: 25vw;
   height: 100vh;
@@ -112,12 +113,15 @@ body::-webkit-scrollbar-thumb {
   left: 70px;
   display: flex;
   flex-direction: row;
-  gap: 430px;
+  gap: 330px;
   z-index: 99;
 }
 .hero p{
   font-size: 1.9em;
   font-family: monospace;
+}
+.btns{
+  display: flex;
 }
 h4{
   font-size: 70px;

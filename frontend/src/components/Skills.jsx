@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills.css'; 
+import './skills.css';
 
 const Skills = () => {
   const skillsList = [
@@ -11,18 +11,10 @@ const Skills = () => {
     'Express',
     'MongoDB',
     'Redux',
-    'Git',
-    'Sass',
     'Bootstrap',
     'RESTful API',
-    'GraphQL',
-    'TypeScript',
-    'Jest',
-    'Responsive Design',
-    'Firebase',
-    'Material-UI',
-    'Webpack',
-    'Docker'
+      'Responsive Design',
+    'Firebase'
   ];
 
   return (

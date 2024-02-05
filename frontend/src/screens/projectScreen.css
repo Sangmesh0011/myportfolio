@@ -1,5 +1,5 @@
 .project-screen{
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(23, 23, 23);
   color: white;
   height: 100%;
   overflow: hidden;
@@ -10,10 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  gap: 16px;
+  gap: 20px;
   padding: 16px;
 }
-button{
+button {
+  position: relative;
   width: 100%;
   height: 40px;
   font-size: 1.3em;
@@ -22,12 +23,30 @@ button{
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  &:hover{
-    box-shadow: 2px 2px 20px 2px rgb(255, 255, 255);
+  color: black;
+
+  &:hover {
+    box-shadow: 2px 2px 20px 2px rgb(119, 119, 119);
     transform: scale(1.1);
     background-color: rgba(0, 0, 0, 0.803);
-    color: rgb(255, 255, 255);
+    color: wheat;
+
+    &::before {
+      content: '>';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: transparent;
+      color: wheat;
+      padding: 0 10px;
+      border-radius: 20px;
+    }
   }
+}
+
+.linker{
+  width: 100%;
 }
 .card {
   gap: 20px;
@@ -35,7 +54,7 @@ button{
   box-sizing: border-box;
   border-radius: 9px;
   padding: 20px;
-  background-color: rgba(35, 58, 61, 0.829);
+  background-color: rgb(30, 29, 37);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -43,11 +62,11 @@ button{
   flex-direction: column;
   transition: all 0.2s ease-in-out;
   perspective: 20px;
-  box-shadow: 10px 6px 600px 1px rgb(176, 199, 255);
+  box-shadow: 10px 6px 600px 1px rgb(255, 255, 255);
   &:hover{
-    box-shadow: 0px 0px 200px 20px rgb(147, 255, 251);
+    box-shadow: 0px 0px 200px 20px rgb(115, 255, 250);
     transform: perspective(900px) rotateY(7deg) scale(1.14);
-    background-color: rgba(82, 244, 190, 0.803);
+    background-color: rgb(87, 209, 209);
     color: black;
   }
 }

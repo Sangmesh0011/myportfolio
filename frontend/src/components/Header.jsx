@@ -15,16 +15,6 @@ const Header = ({ color ,animation}) => {
           Projects
         </Link>
       </span>
-      <span className="items" style={{ animationDelay: animation }}>
-        <Link to="/about" className="nav-link" style={{ color: color }}>
-          About
-        </Link>
-      </span>
-      <span className="items" style={{ animationDelay: animation }}>
-        <Link to="/contact" className="nav-link" style={{ color: color }}>
-          Contact
-        </Link>
-      </span>
     </div>
   );
 };
