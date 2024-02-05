@@ -1,7 +1,7 @@
 .project-screen{
   background-color: rgb(23, 23, 23);
   color: white;
-  height: 100%;
+  min-height: 100vh;
   overflow: hidden;
 }
 
