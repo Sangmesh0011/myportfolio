@@ -6,7 +6,7 @@
 }
 body{
   scrollbar-color: rgb(41, 41, 41);
-  background-color: #f4ffdb;
+  background-color: #bcff20;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
   transition: all 400ms ease;
 }
 .b {
-  background-color: #56e3ff;
+  background-color: #38ff6a;
   width: 25vw;
   height: 100vh;
   animation: dropdown1 0.25s 0.9s forwards;
@@ -59,26 +59,26 @@ body::-webkit-scrollbar-thumb {
 }
 .d {
   transition: all 400ms ease;
-  background-color: #ffffff;
+  background-color: #ff8a23;
   animation: dropdown1 0.25s 1.9s forwards;
   width: 25vw;
   height: 100vh;
 }
 .a:hover {
   transition: all 300ms ease;
-  background-color: #37f8ff;
+  background-color: #ff8a23;
 }
 .b:hover {
-  background-color: #2f52ff;
+  background-color: #ff8a23;
 
   transition: all 300ms ease;
 }
 .c:hover {
-  background-color: #cfff4c;
+  background-color: #38ff6a;
   transition: all 300ms ease;
 }
 .d:hover {
-  background-color: #ea5cf1;
+  background-color: #38ff6a;
   transition: all 300ms ease;
 }
 @keyframes dropdown1 {

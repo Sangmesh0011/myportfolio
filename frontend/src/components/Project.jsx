@@ -17,7 +17,7 @@ const ProjectDetails = () => {
       <Header color="wheat" animation="0s" />
       <div className="mainbox">
         <div className="upper">
-          <img src={project.img} alt="img" />
+          <img src={project.img2} alt="img" />
           <div className="title">
             <h1>{project.title}</h1>{" "}
           </div>

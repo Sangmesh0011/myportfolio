@@ -80,10 +80,11 @@ button {
   align-items: center;
 }
 .card .primg img{
-  width: 370px;
+  width: auto;
   height: 200px;
+  aspect-ratio: 7.7/5;
   margin-bottom: 10px;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 .card h3 {
   font-size: 1.5rem;
