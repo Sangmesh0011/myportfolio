@@ -1,9 +1,9 @@
 .skills-container {
     padding: 40px;
     margin-top: 0px;
-    background: linear-gradient(to bottom,#2f2f2fcc,#352c2c);
+    background: linear-gradient(to right,rgb(219, 255, 89) 40%,rgb(17, 255, 156));
     font-family: monospace;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .skills-container h2{
     margin-left: 0;

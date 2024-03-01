@@ -40,7 +40,7 @@ function App() {
             Explore
             <AiFillCaretDown />
           </div>
-          <a href="/SangmeshJResume.pdf" download="SangmeshJResume.pdf" rel="noopener noreferrer">
+          <a href="/Sangmesh_J.pdf" download="Sangmesh_J.pdf" rel="noopener noreferrer">
             <div className="expbtn">
               Download CV <AiOutlineCloudDownload />
             </div>
