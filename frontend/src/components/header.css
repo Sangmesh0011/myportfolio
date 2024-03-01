@@ -1,13 +1,10 @@
 .header {
   position: relative;
-
-  background-color: transparent;
   height: 5rem;
   width: 100vw;
   padding: 0px 50px;
   display: flex;
-
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   z-index: 2;
 }
@@ -23,6 +20,7 @@
   text-decoration: none;
   color: #000000;
   font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 8px;
   border-radius: 4px;
   transition: background-color 0.3s ease;

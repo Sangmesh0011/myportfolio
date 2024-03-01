@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
   scrollbar-color: rgb(41, 41, 41);
@@ -151,4 +151,21 @@ h4{
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;
   cursor: pointer;
+}
+
+@media (width < 785px) {
+    .outermost{
+      display: flex;
+      flex-direction: column;
+    }
+    .btns{
+      margin-top: -300px;
+      margin-left: -40px;
+    }
+    .hero{
+      margin-top: -150px;
+      margin-left: -60px;
+      display: flex;
+      flex-direction: column;
+    }
 }

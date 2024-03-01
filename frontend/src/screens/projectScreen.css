@@ -94,3 +94,16 @@ button {
 .card span {
   font-size: 1rem;
 }
+@media (width < 785px){
+  .container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+}

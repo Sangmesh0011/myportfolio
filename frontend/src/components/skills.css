@@ -1,10 +1,14 @@
 .skills-container {
     padding: 40px;
     margin-top: 0px;
-    background-color: #e5fff4;
+    background: linear-gradient(to bottom,#2f2f2fcc,#352c2c);
+    font-family: monospace;
+    color: white;
   }
   .skills-container h2{
+    margin-left: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
     font-size: 60px;
     text-align: center;
   }

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(95, 255, 42);
+  background: linear-gradient(to right,rgb(219, 255, 89) 40%,rgb(17, 255, 156));
 
 }
 a{
@@ -89,4 +89,25 @@ p {
 .about .social .sicons{
     height: 70px;
     width: 20x;
+}
+@media (width < 785px){
+  .about{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .right{
+    font-size: small;
+    margin-top: -40px;
+  }
+  .sklbtn{
+    margin-top: -20px;
+    margin-left: -70px;
+  }
+  .social{
+    margin-left: -70px;
+  }
+  h3{
+    visibility: hidden;
+  }
 }
